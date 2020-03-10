@@ -29,8 +29,8 @@ RUN if [ $workspace = "theia" ] ; then \
 WORKDIR /var/theia/
 
 RUN if [ $workspace = "theia" ] ; then \
-	wget https://codejudge-starter-repo-artifacts.s3.ap-south-1.amazonaws.com/theia/java/run.sh \
-    && chmod 775 ./run.sh ; fi
+	wget https://codejudge-starter-repo-artifacts.s3.ap-south-1.amazonaws.com/theia/java/run1.sh \
+    && chmod 775 ./run1.sh ; fi
 
 COPY pom.xml /tmp/
 COPY src /tmp/src/
